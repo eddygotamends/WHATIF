@@ -1,6 +1,6 @@
 # WHATIF Engine
 
-**Web History Alternative Timeline Interactive Framework** — **v0.2.0**
+**What Happens After That Interactive Framework** — **v0.2.0**
 
 > *Turn post-game chess regret into calibrated practice.* Load any completed game PGN, rewind to the critical ply before things went wrong, and play out your alternative line against Stockfish throttled to your original opponent's rating.
 
