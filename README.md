@@ -1,14 +1,14 @@
-# W.H.A.T.I.F. Engine
+# WHATIF Engine
 
-**Web History Alternative Timeline Interactive Framework** — **v0.2.0**
+**What Happens After That Interractive Framework:** — **v0.2.0**
 
 > *Turn post-game chess regret into calibrated practice.* Load any completed game PGN, rewind to the critical ply before things went wrong, and play out your alternative line against Stockfish throttled to your original opponent's rating.
 
-W.H.A.T.I.F. is a **UI-agnostic, 100% offline TypeScript chess continuation engine** paired with a polished reference workbench. It has zero network dependencies, zero site scraping, and programmatic fair-play guardrails designed specifically for completed-game analysis.
+WHATIF. is a **UI-agnostic, 100% offline TypeScript chess continuation engine** paired with a polished reference workbench. It has zero network dependencies, zero site scraping, and programmatic fair-play guardrails designed specifically for completed-game analysis.
 
 ---
 
-## Why W.H.A.T.I.F.?
+## Why WHATIF..?
 
 Most chess analysis tools either hand you top-engine evaluation lines (teaching you to memorize engine moves rather than play out positions yourself) or pair you against an uncalibrated full-strength engine. W.H.A.T.I.F. bridges the gap:
 
@@ -53,7 +53,7 @@ Most chess analysis tools either hand you top-engine evaluation lines (teaching 
 └─────────────────────────────────┬────────────────────────────────────┘
                                   │ WhatIfCore API + subscribe()
 ┌─────────────────────────────────▼────────────────────────────────────┐
-│ W.H.A.T.I.F. Core (v0.2.0)                                           │
+│ WHATIF..? Core                                           │
 │ • ChessSession: chess.js rules, timeline, PGN metadata & overrides   │
 │ • Fair-Play Guard: finished-game check, opponent-turn & Elo bounds   │
 │ • Non-destructive setEngine() attachment and replacement             │
