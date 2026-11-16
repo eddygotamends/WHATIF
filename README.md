@@ -1,4 +1,4 @@
-# WHATIF
+# WHATIF..?
 
 **What Happens After That Interactive Framework**
 
@@ -86,7 +86,7 @@ The extension's browser behaviour and the local engine setup still require end-t
 
 ## Privacy approach
 
-The intended design has no analytics, telemetry, user account system, remote storage, or cloud sync. The chess engine runs locally in the browser. A site adapter may retrieve game information from the supported chess site, but WHATIF is not designed to upload that information to a separate application server.
+The intended design has no analytics, telemetry, user account system, remote storage, or cloud sync. A site adapter may retrieve game information from the supported chess site, but WHATIF is not designed to upload that information to a separate application server.
 
 Only the minimum browser and site permissions needed for the integration should be requested. Remote executable code and tracking are out of scope.
 
@@ -122,8 +122,6 @@ In your pull request, state which commands you ran and include relevant output, 
 
 ## Project files
 
-- [`SPEC.md`](SPEC.md) — product requirements and scope
-- [`ARCHITECTURE.md`](ARCHITECTURE.md) — architecture overview
 - [`THIRD_PARTY_NOTICES-2.md`](THIRD_PARTY_NOTICES-2.md) — third-party licensing notes
 - [`LICENSE`](LICENSE) — project license
 
