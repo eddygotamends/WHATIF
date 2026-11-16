@@ -4,7 +4,7 @@
 
 > **Continue the game after it's over.**
 
-WHATIF. is an experimental Chrome extension that lets you revisit an eligible, completed standard-chess game, rewind to an earlier position, and explore an alternate continuation against a locally bundled Stockfish engine.
+WHATIF. is an experimental engine that lets you revisit an eligible, completed standard-chess game, rewind to an earlier position, and explore an alternate continuation against a locally bundled Stockfish engine.
 
 The idea is simple: a finished game does not have to be the end of the story. Choose a position, keep your original colour, and see what might have happened next.
 
@@ -53,8 +53,8 @@ Live-game assistance, watched games, chess variants, Chess960, and ordinary deci
 
 - Node.js 20 or newer
 - npm
-- Google Chrome or a Chromium-based browser
-
+- Google Chrome or a Chromium-based browser (if you decide to pair it with IHCAT)
+- 
 ### Install dependencies
 
 ```bash
