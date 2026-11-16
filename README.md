@@ -58,8 +58,8 @@ Live-game assistance, watched games, chess variants, Chess960, and ordinary deci
 ### Install dependencies
 
 ```bash
-git clone https://github.com/eddygotamends/what-if-chess-resume.git
-cd what-if-chess-resume
+git clone https://github.com/eddygotamends/WHATIF.git
+cd WHATIF
 npm install
 ```
 
@@ -94,7 +94,7 @@ Only the minimum browser and site permissions needed for the integration should 
 
 The project's own code is intended to be licensed under the MIT License. Stockfish is a separate component distributed under **GNU GPLv3**; the project's MIT license does not replace or override the engine's license.
 
-Before redistributing a release containing the supplied Stockfish.js/WASM build, obtain and include the exact corresponding source code or another GPL-compliant source offer, and verify that the required notices and source materials accompany the binary. The matching source for the supplied engine build has not yet been verified, so this prototype should not be treated as ready for redistribution. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and the included license materials.
+Before redistributing a release containing the supplied Stockfish.js/WASM build, obtain and include the exact corresponding source code or another GPL-compliant source offer, and verify that the required notices and source materials accompany the binary. The matching source for the supplied engine build has not yet been verified, so this prototype should not be treated as ready for redistribution. See [`THIRD_PARTY_NOTICES-2.md`](THIRD_PARTY_NOTICES-2.md) and the included license materials.
 
 ## Roadmap
 
@@ -124,7 +124,7 @@ In your pull request, state which commands you ran and include relevant output, 
 
 - [`SPEC.md`](SPEC.md) — product requirements and scope
 - [`ARCHITECTURE.md`](ARCHITECTURE.md) — architecture overview
-- [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) — third-party licensing notes
+- [`THIRD_PARTY_NOTICES-2.md`](THIRD_PARTY_NOTICES-2.md) — third-party licensing notes
 - [`LICENSE`](LICENSE) — project license
 
 ## Disclaimer
