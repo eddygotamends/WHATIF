@@ -282,5 +282,5 @@ WHATIF-engine/
 - **Repository**: [github.com/eddygotamends/WHATIF](https://github.com/eddygotamends/WHATIF)
 - **Fair-Play Policy**: [FAIR_PLAY.md](FAIR_PLAY.md) details online platform Terms of Service risks and the technical guardrails built into `@whatif/engine`.
 - **Ethical & Legal Audit**: [REVIEW.md](REVIEW.md) contains the file-by-file audit across licensing, fair-play, trademark attribution, and privacy.
-- **License**: WHATIF Engine's own source code is licensed under the **MIT License** ([LICENSE](LICENSE)). `chess.js` is BSD-2-Clause; user-supplied Stockfish binaries remain GPLv3. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+- **License**: WHATIF Engine's own source code is licensed under the **GPL License** ([LICENSE](LICENSE)). `chess.js` is BSD-2-Clause; user-supplied Stockfish binaries remain GPLv3. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 - **Non-Affiliation Disclaimer**: WHATIF Engine is an independent open-source project and is **not affiliated with, endorsed by, or connected to Lichess, Chess.com, LLC, or Stockfish**.
