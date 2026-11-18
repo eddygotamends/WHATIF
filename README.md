@@ -4,7 +4,7 @@
   <img src="WL.png" alt="WHATIF Logo" width="140" />
 </div>
 
-> **Turn post-game chess regret into calibrated practice — and play live on Lichess inside a sleek Apple Studio Liquid Glass interface.**
+> **Turn post-game chess regret into calibrated practice — and play live on Lichess inside a sleek Interface.**
 
 **WHATIF** combines two things in one lightweight web & Android app:
 1. **The WHATIF Continuation Engine (Offline / Post-Game)**: Load any completed PGN or synced Lichess game, rewind to the critical ply where things went wrong, and play out alternative lines against an engine throttled to your actual opponent's Elo — using either the built-in MIT tactical bot or your own imported **Stockfish `.js` + `.wasm`** running locally in a Web Worker.
@@ -14,8 +14,8 @@
 
 ## Highlights & Features
 
-### Apple Studio Liquid Glass UI
-- **Aurora Glass Aesthetics**: Deep obsidian backdrop (`#06080D`) layered with animated multi-spectrum aurora lighting, translucent frosted glass cards, and crisp minimal controls.
+### UI Elements
+- Deep obsidian backdrop (`#06080D`) layered with animated multi-spectrum aurora lighting, translucent frosted glass cards, and crisp minimal controls.
 - **Gloss & Matte Chessboards**: Switch live between **Gloss Finish** (specular studio sheen + glossy Staunton vector pieces) and **Matte Finish** (tactile grain + diffuse piece lighting) across multiple board palettes (**Walnut**, **Emerald**, **Slate**, **Graphite**) under **More → Settings**.
 - **Sleek Mobile-First Navigation**: 5-tab floating bottom pill dock (**Home · Puzzles · Learn · Watch · More**) paired with a Lichess-style floating **Play** pawn launcher (`Lobby Seek`, `Challenge Friend`, `Play Lichess AI`, `Practice Bot`, `Over the Board`).
 
