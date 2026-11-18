@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lichess Authorization — WHATIF</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #080a0f;
+        color: #f8fafc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      p {
+        font-size: 14px;
+        opacity: 0.85;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="status">Completing Lichess authorization...</p>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var code = params.get("code");
+        var state = params.get("state");
+        var error = params.get("error");
+        if (window.opener) {
+          window.opener.postMessage(
+            {
+              type: "LICHESS_OAUTH_CALLBACK",
+              code: code,
+              state: state,
+              error: error,
+            },
+            "*"
+          );
+          document.getElementById("status").textContent =
+            "Authorized. You may close this window.";
+          setTimeout(function () {
+            window.close();
+          }, 300);
+        } else {
+          document.getElementById("status").textContent =
+            error
+              ? "Lichess authorization failed: " + error
+              : "Authorization code received. Return to the WHATIF window.";
+        }
+      })();
+    </script>
+  </body>
+</html>
